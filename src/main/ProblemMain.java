@@ -25,6 +25,7 @@ import problem21to30.Problem22;
 import problem21to30.Problem23;
 import problem21to30.Problem29;
 import problem21to30.Problem30;
+import problem31to40.Problem34;
 import problem41to50.Problem48;
 
 public class ProblemMain {
@@ -57,9 +58,11 @@ public class ProblemMain {
 	private static Problem29 p29 = new Problem29();
 	private static Problem30 p30 = new Problem30();
 	
+	private static Problem34 p34 = new Problem34();
+	
 	private static Problem48 p48 = new Problem48();
 	
 	public static void main(String[] args){
-		System.out.println(p29.run());
+		System.out.println(p34.run());
 	}
 }
